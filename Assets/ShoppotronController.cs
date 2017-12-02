@@ -12,7 +12,7 @@ public class ShoppotronController : MonoBehaviour
         
     }
 	
-	void Update () 
+	void FixedUpdate () 
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
