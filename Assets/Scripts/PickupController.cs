@@ -19,11 +19,11 @@ public class PickupController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        cart.add_item(gameObject);
-
-        // TODO: a little animation or something before destroying
-        // TODO: Destroy is probably not the right thing; we want to keep it around so
-        //       that the shopping cart can use it.
-        Destroy(gameObject);
+        // TODO: make work for destroy collision
+        //GameObject other = collision.GetComponent<GameObject>();
+        if (collision.CompareTag("Player")) {
+            cart.add_item(gameObject);
+        }
+        // TODO: a little animation or something before moving
     }
 }

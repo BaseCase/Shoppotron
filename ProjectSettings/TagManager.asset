@@ -50,3 +50,6 @@ TagManager:
   - name: In-Game UI
     uniqueID: 1723917635
     locked: 0
+  - name: Pickups
+    uniqueID: 3542254817
+    locked: 0
