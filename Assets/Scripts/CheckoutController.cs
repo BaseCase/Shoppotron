@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckoutController : MonoBehaviour 
 {
     public GameObject shopping_cart;
+    public GameObject game_controller;
 
 	void Start () 
     {
@@ -20,13 +21,13 @@ public class CheckoutController : MonoBehaviour
     {
         ShoppingCartController sc = shopping_cart.GetComponent<ShoppingCartController>();
 
-        // TODO: only if colliding with player
-        if (sc.is_full()) {
-            // congrats
-            Debug.Log("you win");
-        } else {
-            // ruh roh
-            Debug.Log("get rekt");
+        if (collision.CompareTag("Player")) {
+            if (sc.is_full()) {
+                GameController gc = game_controller.GetComponent<GameController>();
+                gc.win_level();
+            } else {
+                Debug.Log("You don't have all the items!");
+            }
         }
     }
 }
