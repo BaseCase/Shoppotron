@@ -1006,6 +1006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aed389c0798645079042d0d677a10b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  battery_drain_overlay: {fileID: 2039545357}
 --- !u!4 &1390534938
 Transform:
   m_ObjectHideFlags: 0
@@ -1724,7 +1725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2039545358
 RectTransform:
   m_ObjectHideFlags: 0
