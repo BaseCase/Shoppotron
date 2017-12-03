@@ -5,6 +5,7 @@ using UnityEngine;
 public class PickupController : MonoBehaviour 
 {
     public GameObject shopping_cart;
+    public GameObject game_controller;
 
     private ShoppingCartController cart;
 
@@ -19,11 +20,14 @@ public class PickupController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // TODO: make work for destroy collision
-        //GameObject other = collision.GetComponent<GameObject>();
         if (collision.CompareTag("Player")) {
             cart.add_item(gameObject);
+        } else if (collision.CompareTag("Shelf")) {
+            Destroy(gameObject);
+            GameController gc = game_controller.GetComponent<GameController>();
+            gc.lose_to_item_destroy();
+        } else {
+            // ignore anything that's not player or a shelf
         }
-        // TODO: a little animation or something before moving
     }
 }
