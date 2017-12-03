@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BatteryController : MonoBehaviour 
 {
+    public GameObject game_controller;
     public float seconds_to_live;
 
     private Vector3 start_scale;
@@ -24,5 +25,9 @@ public class BatteryController : MonoBehaviour
         Vector3 new_scale = new Vector3(percent_left, 1f, 1f);
         transform.localScale = new_scale;
         transform.localPosition = new Vector3(-(1f - percent_left) / 2f, 0f, 0f);
+
+        if (percent_left <= 0f) {
+            game_controller.GetComponent<GameController>().lose_to_battery_drain();
+        }
 	}
 }
