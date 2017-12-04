@@ -9,11 +9,14 @@ public class PickupController : MonoBehaviour
 
     private ShoppingCartController cart;
     private AudioSource pickup_get_audio;
+    private AudioSource pickup_destroy_audio;
 
 	void Start () 
     {
         cart = shopping_cart.GetComponent<ShoppingCartController>();
-        pickup_get_audio = gameObject.GetComponent<AudioSource>();
+        AudioSource[] audios = GetComponents<AudioSource>();
+        pickup_get_audio = audios[0];
+        pickup_destroy_audio = audios[1];
 	}
 	
     void Update () 
@@ -26,7 +29,7 @@ public class PickupController : MonoBehaviour
             cart.add_item(gameObject);
             pickup_get_audio.Play();
         } else if (collision.CompareTag("Shelf")) {
-            Destroy(gameObject);
+            pickup_destroy_audio.Play();
             GameController gc = game_controller.GetComponent<GameController>();
             gc.lose_to_item_destroy();
         } else {
