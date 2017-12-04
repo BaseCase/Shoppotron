@@ -48,11 +48,11 @@ TagManager:
   - name: Walls
     uniqueID: 2552379911
     locked: 0
-  - name: Foreground
-    uniqueID: 1793891387
-    locked: 0
   - name: In-Game UI
     uniqueID: 1723917635
+    locked: 0
+  - name: Foreground
+    uniqueID: 1793891387
     locked: 0
   - name: Pickups
     uniqueID: 3542254817
