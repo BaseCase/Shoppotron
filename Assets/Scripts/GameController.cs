@@ -13,12 +13,17 @@ public class GameController : MonoBehaviour
     private float time_scale;
     private bool waiting_for_restart;
     private bool waiting_for_next_level;
+    private AudioSource lose_audio;
+    private AudioSource win_audio;
 
     void Start()
     {
         time_scale = Time.timeScale;
         waiting_for_restart = false;
         waiting_for_next_level = false;
+        AudioSource[] sources = GetComponents<AudioSource>();
+        win_audio = sources[0];
+        lose_audio = sources[1];
     }
 
     void Update()
@@ -44,6 +49,7 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 0f;
         waiting_for_restart = true;
+        lose_audio.Play();
         battery_drain_overlay.SetActive(true);
     }
 
@@ -51,6 +57,7 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 0f;
         waiting_for_restart = true;
+        lose_audio.Play();
         item_destroy_overlay.SetActive(true);
     }
 
@@ -58,6 +65,7 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 0f;
         waiting_for_next_level = true;
+        win_audio.Play();
         win_level_overlay.SetActive(true);
     }
 }
