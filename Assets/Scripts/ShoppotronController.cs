@@ -23,11 +23,6 @@ public class ShoppotronController : MonoBehaviour
         Vector3 movement = new Vector3(0, v, 0) * movement_speed;
         transform.Rotate(rotation);
         transform.Translate(movement);
-
-        if (Mathf.Abs(v) > 0) {
-            anim.speed = 1;
-        } else {
-            anim.speed = 0;
-        }
+        anim.speed = Mathf.Abs(v);
 	}
 }
