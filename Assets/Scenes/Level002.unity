@@ -1224,6 +1224,67 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1355200204}
+--- !u!1001 &1381647166
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.114
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468928872831130, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_Name
+      value: RAM (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114997400204135384, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e,
+        type: 2}
+      propertyPath: shopping_cart
+      value: 
+      objectReference: {fileID: 143140363}
+    - target: {fileID: 114997400204135384, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e,
+        type: 2}
+      propertyPath: game_controller
+      value: 
+      objectReference: {fileID: 1390534936}
+    - target: {fileID: 1037098313863996, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 82793475302386844, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1390534936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,7 +1317,7 @@ MonoBehaviour:
   battery_drain_overlay: {fileID: 2039545357}
   item_destroy_overlay: {fileID: 1929782783}
   win_level_overlay: {fileID: 986686912}
-  next_level_name: Level002
+  next_level_name: Level003
 --- !u!4 &1390534938
 Transform:
   m_ObjectHideFlags: 0
@@ -1605,10 +1666,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome to Guy''s Electronics!
-
-
-    Pick up the CPU and take it to the cashier.'
+  m_Text: If there's more than one CPU, pick them all up before checking out!
 --- !u!222 &1474505520
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1898,6 +1956,67 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!1001 &1833313402
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.483
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468928872831130, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_Name
+      value: RAM (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114997400204135384, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e,
+        type: 2}
+      propertyPath: shopping_cart
+      value: 
+      objectReference: {fileID: 143140363}
+    - target: {fileID: 114997400204135384, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e,
+        type: 2}
+      propertyPath: game_controller
+      value: 
+      objectReference: {fileID: 1390534936}
+    - target: {fileID: 1037098313863996, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 82793475302386844, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1845630038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,11 +2462,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.452
+      value: -1.369
       objectReference: {fileID: 0}
     - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.795
+      value: -1.17
       objectReference: {fileID: 0}
     - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
       propertyPath: m_LocalPosition.z

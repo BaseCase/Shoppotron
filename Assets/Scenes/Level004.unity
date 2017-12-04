@@ -274,7 +274,7 @@ Prefab:
     - target: {fileID: 114323516330002752, guid: bd047afae604846b2b958ac68d5e9b06,
         type: 2}
       propertyPath: seconds_to_live
-      value: 120
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   battery_drain_overlay: {fileID: 2039545357}
   item_destroy_overlay: {fileID: 1929782783}
   win_level_overlay: {fileID: 986686912}
-  next_level_name: Level002
+  next_level_name: Level005
 --- !u!4 &1390534938
 Transform:
   m_ObjectHideFlags: 0
@@ -1605,10 +1605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome to Guy''s Electronics!
-
-
-    Pick up the CPU and take it to the cashier.'
+  m_Text: And be sure to finish shopping before your battery drains!
 --- !u!222 &1474505520
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2343,11 +2340,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.452
+      value: 1.421
       objectReference: {fileID: 0}
     - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.795
+      value: -0.228
       objectReference: {fileID: 0}
     - target: {fileID: 4734769846156664, guid: 29237aec8c1e143c4b5feb7a3ab9ed4e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2629,3 +2626,49 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &2078637217
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.533
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.247
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.70640165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70781124
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440281524681350, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -89.886
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c7f864995b88a42019da631c76fbb2b8, type: 2}
+  m_IsPrefabParent: 0
