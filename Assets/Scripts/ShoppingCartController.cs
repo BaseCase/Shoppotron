@@ -24,8 +24,7 @@ public class ShoppingCartController : MonoBehaviour
     public void add_item(GameObject item)
     {
         items_captured++;
-        // TODO: only works for one item
-        item.transform.position = first_item_position;
+        item.transform.position = first_item_position + new Vector3(items_captured / 3f, 0f, 0f);
     }
 
     public bool is_full()
