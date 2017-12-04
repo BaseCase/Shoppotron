@@ -467,15 +467,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4201154120783394, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.3
+      value: -3.219
       objectReference: {fileID: 0}
     - target: {fileID: 4201154120783394, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.44
+      value: 3.604
       objectReference: {fileID: 0}
     - target: {fileID: 4201154120783394, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.0972621
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4201154120783394, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
       propertyPath: m_LocalRotation.x
@@ -497,32 +497,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 1040672871551874, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
-      propertyPath: m_Name
-      value: BatteryMeter
-      objectReference: {fileID: 0}
-    - target: {fileID: 212211325215794000, guid: bd047afae604846b2b958ac68d5e9b06,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 114323516330002752, guid: bd047afae604846b2b958ac68d5e9b06,
         type: 2}
       propertyPath: game_controller
       value: 
       objectReference: {fileID: 1390534936}
-    - target: {fileID: 114323516330002752, guid: bd047afae604846b2b958ac68d5e9b06,
-        type: 2}
-      propertyPath: seconds_to_live
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4691403345798732, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.09
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114674850412820344, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
-    - {fileID: 212932204878705332, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd047afae604846b2b958ac68d5e9b06, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &550398073
