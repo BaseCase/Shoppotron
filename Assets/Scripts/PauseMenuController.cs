@@ -57,7 +57,8 @@ public class PauseMenuController : MonoBehaviour
                     Scene loadedLevel = SceneManager.GetActiveScene();
                     SceneManager.LoadScene(loadedLevel.buildIndex);
                 } else {
-                    SceneManager.LoadScene("LevelSelect");
+                    Time.timeScale = time_scale;
+                    SceneManager.LoadScene("SplashScreen");
                 }
             }
         }

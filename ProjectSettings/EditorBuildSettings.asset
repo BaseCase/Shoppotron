@@ -35,3 +35,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level009.unity
     guid: 713768cd4364444bd833ae6aa8193a0b
+  - enabled: 1
+    path: Assets/Scenes/Level010.unity
+    guid: 31dd805e7c4f14e36aa2b7c5100ba8f4
+  - enabled: 1
+    path: Assets/Scenes/Level011.unity
+    guid: 442edcd0b98f4492ca90513dfeb1bdf7
+  - enabled: 1
+    path: Assets/Scenes/Level012.unity
+    guid: eb706f4b601244af1b443cbb1bc1d5e3
+  - enabled: 1
+    path: Assets/Scenes/TemplateLevel.unity
+    guid: 71a723a56850b453688c584a96fc7930
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 580480abfe8b94dc5b521913e213a777

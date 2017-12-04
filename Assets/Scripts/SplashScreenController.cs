@@ -13,8 +13,11 @@ public class SplashScreenController : MonoBehaviour
 	void Update () 
     {
         if (Input.GetKeyDown("return")) {
-            Debug.Log("heyo");
             SceneManager.LoadScene("Level001");
+        }
+
+        if (Input.GetKeyDown("escape")) {
+            Application.Quit();
         }
 	}
 }
