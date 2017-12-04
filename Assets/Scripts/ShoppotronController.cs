@@ -32,6 +32,9 @@ public class ShoppotronController : MonoBehaviour
         { // audio
             if (Mathf.Abs(v) > 0) {
                 if (audio_is_playing) {
+                    if (Time.timeScale == 0f) {
+                        audio.Stop();
+                    }
                     // don't start what's already playing
                 } else {
                     audio.Play();

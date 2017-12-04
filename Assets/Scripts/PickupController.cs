@@ -8,10 +8,12 @@ public class PickupController : MonoBehaviour
     public GameObject game_controller;
 
     private ShoppingCartController cart;
+    private AudioSource pickup_get_audio;
 
 	void Start () 
     {
         cart = shopping_cart.GetComponent<ShoppingCartController>();
+        pickup_get_audio = gameObject.GetComponent<AudioSource>();
 	}
 	
     void Update () 
@@ -22,6 +24,7 @@ public class PickupController : MonoBehaviour
     {
         if (collision.CompareTag("Player")) {
             cart.add_item(gameObject);
+            pickup_get_audio.Play();
         } else if (collision.CompareTag("Shelf")) {
             Destroy(gameObject);
             GameController gc = game_controller.GetComponent<GameController>();
