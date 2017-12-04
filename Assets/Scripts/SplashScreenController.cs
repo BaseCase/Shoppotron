@@ -14,7 +14,7 @@ public class SplashScreenController : MonoBehaviour
     {
         if (Input.GetKeyDown("return")) {
             Debug.Log("heyo");
-            SceneManager.LoadScene("LevelSelect");
+            SceneManager.LoadScene("Level001");
         }
 	}
 }
